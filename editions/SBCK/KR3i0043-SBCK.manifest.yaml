@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR3i0043/SBCK/v1
+canonical_location: https://kanripo.org/bkk/KR3i0043/SBCK/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 飲膳正要
+  date: '2015-09-12 00:16:29.703261'
+  source:
+    repository: kanripo
+    path: KR3i0043
+  edition:
+    short: SBCK
+    label: 【四部叢刊】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3i0043_000-SBCK.yaml, hash: 'sha256:a4dc4f8fd17f4b62ace481dd31946e94409abaeb87d91e505251141280c1e5f0'}
+  - {seq: 1, filename: KR3i0043_001-SBCK.yaml, hash: 'sha256:31acb2932190da8ac1deb9dcade5a3c72ac3093a3869a05670cd48a5c0919b0a'}
+  - {seq: 2, filename: KR3i0043_002-SBCK.yaml, hash: 'sha256:96d2f4d73935482f699c7594086563f7a5b3d92a1db50e99429aacdcb152153a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3i0043_000-SBCK.markers.yaml, hash: 'sha256:bd086dc8997d88ea1c2c777c10054a2346b17572dbd152c218e2d74f050acd94'}
+  - {seq: 1, role: markers, filename: assets/KR3i0043_001-SBCK.markers.yaml, hash: 'sha256:f955f141a316fa8ef7f2d3aa59c4752e25e57db82e536fa22043734c745d1aa5'}
+  - {seq: 2, role: markers, filename: assets/KR3i0043_002-SBCK.markers.yaml, hash: 'sha256:e46b1584956930b891666f400ea288550a85cd5ac1755799dc04a95743e42a18'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3i0043_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 3180
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3i0043_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 7928
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3i0043_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 11796
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:35aa31bfb80a74fcd07357d5c8f5cec35818235aa9bee3d89b6ef2ff17564058
